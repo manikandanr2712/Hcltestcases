@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.hide-opacity{
+    opacity: 0;
+}
+.has-error .form-control:focus  + div.text-danger{
+    opacity:1;
+  }
+  body {
+    background: linear-gradient(to bottom,#3366668c 0%,#e06965 100%);      
+}
+.container {
+    border: 1px solid #000;
+    border-radius: 13px;
+    margin-top: 11px;
+}
